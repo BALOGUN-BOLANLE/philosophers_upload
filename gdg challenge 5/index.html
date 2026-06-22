@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Philosophers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-6">
+
+
+  <div class="w-full max-w-6xl 
+              flex flex-col gap-6 
+              md:grid md:grid-cols-3">
+
+    <!-- Card 1 -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden 
+                transform transition duration-300 
+                hover:scale-105 hover:shadow-lg">
+
+      <img src="images/plato2.jpeg" 
+           alt="Plato Image"
+           class="w-full h-48 object-cover">
+
+      <div class="p-5 space-y-3">
+        <h2 class="text-xl font-semibold text-gray-800">
+          PLATO
+        </h2>
+
+        <p class="text-gray-600 text-sm">
+          Plato defined philosophy as the passionate search for true knowledge,wisdom,
+          understanding of the eternal,unchanging reality (the Forms) rather than the mere sensory perception
+          of the physical world.
+        </p>  <br>
+
+        <button
+        onclick="window.open('https://share.google/OduWsZJY7NHsnBrXU', '_blank')"
+         class="mt-3 px-4 py-2 bg-blue-500 text-white rounded-lg 
+                       transition duration-300 
+                       hover:bg-blue-600 hover:shadow-md">
+          Learn More
+        </button>
+      </div>
+    </div>
+
+    <!-- Duplicate this card for Card 2 and Card 3 -->
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden 
+                transform transition duration-300 
+                hover:scale-105 hover:shadow-lg">
+
+      <img src="images/aristotle.jpeg" 
+           alt="Aristotle Image"
+           class="w-full h-48 object-cover">
+
+      <div class="p-5 space-y-3">
+        <h2 class="text-xl font-semibold text-gray-800">
+          ARISTOTLE
+        </h2>
+
+        <p class="text-gray-600 text-sm">
+          Aristotle defined philosophy as the rational,systematic pursuit of knowledge rearding the fundamental
+          causes,principles,and nature of reality,emcompassing everything from metaphysics to ethics.
+        </p>
+
+        <button 
+        onclick="window.open('https://share.google/nHczdtiKzkOo7IIoj', '_blank')"
+        class="mt-3 px-4 py-2 bg-blue-500 text-white rounded-lg 
+                       transition duration-300 
+                       hover:bg-blue-600 hover:shadow-md">
+          Learn More
+        </button>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden 
+                transform transition duration-300 
+                hover:scale-105 hover:shadow-lg">
+
+      <img src="images/immanuel kant.jpeg" 
+           alt="Imannuel Kant Image"
+           class="w-full h-48 object-cover">
+
+      <div class="p-5 space-y-3">
+        <h2 class="text-xl font-semibold text-gray-800">
+          IMMANUEL KANT
+        </h2>
+
+        <p class="text-gray-600 text-sm">
+          Immanuel Kant defined philosophy not as a mere science of concepts,but as a critical,rational,
+          inquiry into the nature of human knowledge,morality,and freedom.
+        </p> <br>
+
+        <button 
+        onclick="window.open('https://share.google/xQos7WJ2kiZu1Xz3i', '_blank')"
+        class="mt-3 px-4 py-2 bg-blue-500 text-white rounded-lg 
+                       transition duration-300 
+                       hover:bg-blue-600 hover:shadow-md">
+          Learn More
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
